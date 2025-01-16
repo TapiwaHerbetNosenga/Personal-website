@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import "./index.css"
 import "./App.css";
 import AboutMe from "./pages/AboutMe";
 import Layout from "./components/Layout";
@@ -11,8 +12,6 @@ import Projects from "./pages/MyProjects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
- 
-
   return (
     <>
       <BrowserRouter>
@@ -22,7 +21,7 @@ function App() {
             <Route path="My-CV" element={<CV />} />
             <Route path="My-Links" element={<Links />} />
             <Route path="My-Experience" element={<Experience />} />
-         <Route path="My-Projects" element={<Projects />}/>
+            <Route path="My-Projects" element={<Projects />} />
           </Route>
         </Routes>
       </BrowserRouter>

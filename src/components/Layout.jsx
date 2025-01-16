@@ -2,11 +2,14 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
+
 export default function Layout() {
   return (
-  <div>
+  <div id="site-wrapper">
     <NavBar />
-<main>
+    
+<main id="pageMain " >
+
    <Outlet />
 </main>
 <Footer />
