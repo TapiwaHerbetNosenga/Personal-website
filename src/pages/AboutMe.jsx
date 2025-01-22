@@ -14,7 +14,6 @@ export default function AboutMe() {
           </div>
           <div>
             <div className="flex flex-col ">
-              {" "}
               <h1>Herbet</h1>
               <h1>Nosenga</h1>
               <h1>Software Developer</h1>

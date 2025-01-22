@@ -38,6 +38,9 @@ margin: 0;
 
 #pageNav{
 grid-area:nav;
+background-color: #303131;
+
+
 }
 
 #pageMain{
@@ -124,3 +127,53 @@ grid-area: footer;
   height:auto;
   width:35vw;
 }
+
+.oval-container {
+  
+  width: 350px; 
+  height: 450px;
+  overflow: hidden;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oval-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+#portfolio{
+  display: grid;
+  grid-template-areas:
+  "side1 side2";
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  height: auto;
+  
+}
+
+#portfolioSide1{
+  grid-area: side1;
+  grid-column: 1/4;
+  
+}
+
+#portfolioSide2{
+  grid-area: side2;
+  grid-column: 4/6;
+  display: grid; 
+  place-items: center;
+}
+
+
+li{
+  color: whitesmoke;
+
+}
+
+
+

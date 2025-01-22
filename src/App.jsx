@@ -9,6 +9,7 @@ import CV from "./pages/MyCV";
 import Links from "./pages/MyLinks";
 import Experience from "./pages/MyWorkExperience";
 import Projects from "./pages/MyProjects";
+import Portfolio from "./pages/Portfolio";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="My-Links" element={<Links />} />
             <Route path="My-Experience" element={<Experience />} />
             <Route path="My-Projects" element={<Projects />} />
+            <Route path="Portfolio" element={<Portfolio />} />
           </Route>
         </Routes>
       </BrowserRouter>
