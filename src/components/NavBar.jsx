@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="inset-y-0 flex flex-col justify-center" id="pageNav">
-      <ul className="list-none flex  justify-center" id="navList"> 
+      <ul className="list-none flex  justify-around" id="navList"> 
         <Link to="/"> 
           <li>About Me</li>
         </Link>
