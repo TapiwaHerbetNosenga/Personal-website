@@ -1,4 +1,4 @@
-import "/project1.png";
+
 import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {

@@ -189,3 +189,28 @@ color: #fd672d;
   width:16vw;
   margin:2vw;
 }
+
+#navList li:hover{
+  color:#fd672d;
+}
+
+#navList li:active{
+  color:#fd672d;
+}
+
+#navList li{
+  transition: color 0.3s ease ;
+}
+
+#navList .selected{
+  color:#fd672d;
+}
+
+.linker{
+  width:40vw ;
+}
+
+/* #linklist > div:hover {
+border:0.5vw solid #fd672d;
+border-radius: 10%;
+} */
