@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 #root {
-  max-width: 1280px;
-  max-height: max-content;
+  max-width: 100vw;
   text-align: center;
   min-height: 100vh;
-  min-width: 100vw;
+  margin: 0 auto;
+
 }
 
 .logo {
@@ -183,4 +183,9 @@ color: #fd672d;
 
 #nice-gray{
   color:#203447;
+}
+
+#project-container{
+  width:16vw;
+  margin:2vw;
 }

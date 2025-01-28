@@ -8,14 +8,14 @@ export default function Portflio() {
         className="flex flex-col items-start justify-center"
       >
         <div  className="flex flex-col items-start justify-center">
-          <h3 className="text-3xl font-bold">Hi</h3>
+          <h3 className="text-3xl font-bold mb-1.5">Hi</h3>
           <span className="flex flex-row ">
             <p className="text-5xl font-bold pr-2">I'm </p>{" "}
-            <p id="orange" className="text-5xl font-bold">
+            <p id="orange" className="text-5xl font-bold mb-1">
               Herbert
             </p>
           </span>
-          <h1 className="text-6xl font-bold">A Fullstack Developer</h1>
+          <h1 className="text-6xl font-bold mb-1.5">A Fullstack Developer</h1>
         </div>
 
         <p className="break-words text-left mt-2 text-lg leading-6 font-medium " id="nice-gray">
