@@ -18,12 +18,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<AboutMe />} />
+            <Route index element={<Portfolio />} />
             <Route path="My-CV" element={<CV />} />
             <Route path="My-Links" element={<Links />} />
             <Route path="My-Experience" element={<Experience />} />
             <Route path="My-Projects" element={<Projects />} />
-            <Route path="Portfolio" element={<Portfolio />} />
+            {/* <Route path="Portfolio" element={<Portfolio />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

@@ -70,14 +70,16 @@ grid-area: footer;
 
   #artSide1{
     grid-area: side1;
+    
   }
   #artSide2{
     grid-area: side2;
+   
   }
 
   #artMain{
     grid-area: main;
-    background-color: #888;
+    /* background-color: #888; */
   }
 
 @keyframes logo-spin {

@@ -41,7 +41,7 @@ export default function AboutMe() {
               </ul>
             </div>
             <div className="w-4/12 flex flex-col items-center justify-center ">
-              <div className="bg-slate-700 text-white w-full"> Skills</div>
+              <div className="bg-slate-700  w-full"> Skills</div>
               <ul className="list-none flex flex-col items-center   justify-center ">
                 <li>Vue.js</li>
                 <li>React.js</li>
