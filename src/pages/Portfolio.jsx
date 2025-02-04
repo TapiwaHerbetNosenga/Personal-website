@@ -12,7 +12,7 @@ export default function Portflio() {
           <span className="flex flex-row ">
             <p className="text-5xl font-bold pr-2">I'm </p>{" "}
             <p id="orange" className="text-5xl font-bold mb-1">
-              Herbert
+              Herbet
             </p>
           </span>
           <h1 className="text-6xl font-bold mb-1.5">A Fullstack Developer</h1>

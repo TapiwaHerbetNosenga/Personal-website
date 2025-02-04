@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 #root {
   max-width: 100vw;
@@ -202,10 +205,12 @@ color: #fd672d;
 
 #navList li{
   transition: color 0.3s ease ;
+  font-size: large;
 }
 
 #navList .selected{
   color:#fd672d;
+  text-decoration: underline;
 }
 
 .linker{
